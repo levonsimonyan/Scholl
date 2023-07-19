@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="qandak.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <header>
+        <nav class="menu">
+            <div class="menu-close">
+                <span class="close-icon"><i class="fas fa-times"></i></span>
+            </div>
+
+            <ul>
+              <li><a href="../index.html">Գլխավոր</a></li>
+                <li><a href="#" onclick="toggleMenuTwo()" id="anav">Կրթություն <i class="bi bi-chevron-right"></i></a>
+                    <nav id="twose">
+                        <ul id="section-two">
+                            <li><a href="../arvestfaculty/arvest.html" id="first">Արվեստի ֆակուլտետ</a></li>
+                            <li><a href="#">Դիզայնի ֆակուլտետ</a></li>
+                            <li><a href="#">Կինոի և թատրոնի ֆակուլտետ</a></li>
+                        </ul>
+                    </nav>
+                </li>
+              <li><a href="../aboutus/about.html">Մեր մասին</a></li>
+              <li><a href="../news/news.html">Նորություններ</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <div class="manu-one" onclick="toggleMenu()">
+                
+                <p><i class="bi bi-list"></i><b>Մենյու</b></p>
+            </div>
+
+            <div class="logo">
+                <img src="../images/Logo.png" alt="logo">
+            </div>
+            <div class="icons">
+
+                <div class="new-nav-toggle">
+                    <i class="bi bi-telephone"></i>
+                </div>
+                
+                <div class="nav-toggle">
+                    <i class="bi bi-geo-alt"></i>
+                </div>
+                
+                <!-- search -->
+                <div class="search-container">
+                    <input type="text" placeholder="Որոնում...">
+                    <button class="search-icon" id="search-js">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <button class="close-icon" style="display: none;">
+                      <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <!-- search -->
+            </div>
+
+        </div>
+
+    </header>
+    <div class="container-two">
+        <div class="for-border-bottom"></div>
+    </div>
+
+
+    <nav class="navmap">
+        <div class="nav-close">
+            <i class="fa fa-times"></i>
+        </div>
+        <h2>Այցելեք մեզ</h2>
+        <img src="../images/map.jpg" alt="">
+        <h3>Աշխատանքային օրերին</h3>
+        <p>09:00 - 15:00</p>
+        <p>Տվյալ հասցեով՝</p>
+        <p>Ք․ Երեվան   փ․ Տերյան  109</p>
+    </nav>
+
+    <nav class="new-navmap">
+        <div class="new-nav-close">
+            <i class="fa fa-times"></i>
+        </div>
+        <h2>Զանգահարեք մեզ</h2>
+        <h3>Հանգստյան օրերին</h3>
+        <p>8:00 - 14:30</p>
+        <h4>Տվյալ հեռախոսահամարներով՝</h4>
+        <p>+374 98351474</p>
+        <p id="add-margin">+374 55358454</p>
+        <h3>Աշխատանքային օրերին</h3>
+        <p>8:00 - 17:00</p>
+    </nav>
+
+
+    <!-- esranicccc verev headernaaa -->
+
+    <div class="qandak">
+        <div class="container-two">
+            <div class="for-center">
+                <h1>Քանդակագործության բաժին</h1>
+                <p>Արվեստի բակալավր / 4 տարի</p>
+                <span>ՀԳՊԱ-ն առաջարկում է Քանդակագործություն մասնագիտության բակալավրի և մագիստրոսի կրթական ծրագրեր` ուսուցման առկա հիմունքով: Կրթական ծրագրերում <br> հիմնական շեշտը դրվում է այն հմտությունների զարգացման վրա, որոնք թույլ կտան ստեղծել հաստոցային, մոնումենտալ, անիմալիստական և դեկորատիվ քանդակներ: <br> Ուսանողները կատարում են անտիկ քանդակների կրկնօրինակներ: Քանդակում են բնորդներ, ինչպես առանձին ֆիգուրատիվ, այնպես էլ հորինվածքային աշխատանքներում…</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 222222222222222222222222222222222222222 -->
+
+    <div class="pdfss">
+        <div class="container-two">
+            <div class="pdf-center">
+                <div class="pdf-block">
+                    <img src="../images/pdf.png" alt="pdf">
+                    <h1>Առարկայացանկ</h1>
+                </div>
+                <div class="pdf-block">
+                    <img src="../images/pdf.png" alt="pdf">
+                    <h1>Դասացուցակ</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 33333333333333333333333333333333333333333333 -->
+
+
+    <div class="our-plan">
+        <div class="container-two">
+            <h1>Ուսումնական պլանը</h1>
+            <div class="our-plan-box">
+                <h2>1 տարի</h2>
+                <p>Ծանոթացնում է մասնագիտության բովանդակությանը՝ ուսանողներին հնարավորություն տալով ձեռք բերել քանդակագործության վերաբերյալ առաջնային տեսական ու <br> գործնական գիտելիք և հմտություններ:</p>
+            </div>
+
+            <div class="our-plan-box">
+                <h2>2 տարի</h2>
+                <p>Ուսուցման երկրորդ տարին միտված է խորացնելու և զարգացնելու արդեն իսկ ձեռքբերված գիտելիքներն, ինչպես նաև ձևավորելու և հմտացնելու ուսանողների տեխնիկական <br> մասնագիտական կարողությունները՝ փոխանցելով Հին Եգիպտոսի, Միջագետքի, Հին Հունաստանի և Վերածննդի ժամանակաշրջնների քանդակագործության պլաստիկ և <br> գաղափարական առանձնահատկությունների և տեխնիկաների վերաբերյալ խորը և համապարփակ գիտելիք և հմտություններ:</p>
+            </div>
+
+            <div class="our-plan-box">
+                <h2>3 տարի</h2>
+                <p>Ուսուցման երրորդ տարում ուսանողները կշարունակեն յուրացնել ձեռքբերված գիտելիքները և հմտացնել տեխնիկական մասնագիտական կարողությունները՝ ստանալով <br> իմպրեսիոնիզմի, պոստիմպրեսիոնիզմի և մոդեռն արվեստի այլ ուղղությունների քանդակագործության պլաստիկ և գաղափարական առանձնահատկությունների և <br> տեխնիկաների վերաբերյալ խորը և համապարփակ գիտելիք և հմտություններ:</p>
+            </div>
+
+            <div class="our-plan-box">
+                <h2>4 տարի</h2>
+                <p>Ծանոթացնում է մասնագիտության բովանդակությանը՝ ուսանողներին հնարավորություն տալով ձեռք բերել քանդակագործության վերաբերյալ առաջնային տեսական ու <br> գործնական գիտելիք և հմտություններ:</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- 444444444444444444444444444444444444444444444 -->
+
+    <div class="choose-lesonne">
+        <div class="container-two">
+            <div class="for-choose-center">
+                <h1>Կամընտրական դասընթացներ</h1>
+                <p>Կրթական ծրագրի բոլոր ուսանողները ուսման երկրորդ տարվա երկրորդ կիսամյակից հնարավորություն ունեն ընտրելու մասնագիտական խորացված կամ հարակից<br> ոլորտների դասընթացներ, որոնք կզարգացնեն ընդհանրական և ոլորտին հատուկ կարողություններն ու հմտությունները: Կրթական ծրագրի բոլոր ուսանողները ուսման <br> երկրորդ տարվա երկրորդ կիսամյակից հնարավորություն ունեն ընտրելու մասնագիտական խորացված կամ հարակից ոլորտների դասընթացներ, որոնք կզարգացնեն <br> ընդհանրական և ոլորտին հատուկ կարողություններն ու հմտությունները:</p>
+                <button id="showButton">Տեսնել ավելի վաղ տեղեկություններ <i class="bi bi-arrow-down-short"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5555555555555555555555555555555555555555555555555 -->
+
+    <div class="applicant">
+        <div class="container-two">
+            <div class="for-applicat-center">
+                <h1>Դիմորդ</h1>
+                <p><span>2023/2024 ուսումնական տարվա բակալավրի ընդունելության քննությունների հայտագրման երկրորդ և մասնագիտության հայտագրման առաջին փուլի դիմում հայտերը</span><br> կընդունվեն ապրիլի 15-ից մայիսի 10-ը առցանց՝ ԳԹԿ-ի www.dimord.am կայքում։ <br> Ներբուհական «գծանկար» և «գծագրություն» առարկաներից յուրաքանչյուր քննության համար դիմորդը 1500 ՀՀ դրամ պետք է վճարի ՀԱՊՀ հիմնադրամ, «ԿոնվերսԲանկ» <br> ՓԲԸ Հ/Հ 1930004534910100 հաշվեհամարին և անդորագիրը ներբեռնի dimord.am-ում:</p>
+                <p>Դիմորդների ընդունելությունն իրականացվում է ՀՀ Կառավարության համապատասխան որոշմամբ հաստատված «Հայաստանի Հանրապետության պետական և ոչ<br> պետական բարձրագույն ուսումնական հաստատությունների ընդունելության կարգ»-ի համաձայն:</p>
+            </div>
+            <div class="privileges" id="our-p">
+                <h1>Արտոնություններ</h1>
+                <p> &nbsp;  &nbsp;Համաձայն ՀՀ Կառավարության 1 ապրիլի 2021 թվականի 469-Ն որոշման՝ ՀՀ պետական և ոչ պետական բարձրագույն ուսումնական հաստատությունների ընդունելության <br> կարգով սահմանված արտոնություններից օգտվելու դեպքերն են.</p>
+                
+                <div class="our-plan-box" id="our-p">
+                    <h2>78 կետի արտոնություն</h2>
+                    <p>&nbsp;  &nbsp;Ծանոթացնում է մասնագիտության բովանդակությանը՝ ուսանողներին հնարավորություն տալով ձեռք բերել քանդակագործության վերաբերյալ առաջնային տեսական ու <br> գործնական գիտելիք և հմտություններ:</p>
+                </div>
+
+                <div class="our-plan-box" id="our-p">
+                    <h2>79 կետի արտոնություն</h2>
+                    <p>&nbsp;  &nbsp;Ծանոթացնում է մասնագիտության բովանդակությանը՝ ուսանողներին հնարավորություն տալով ձեռք բերել քանդակագործության վերաբերյալ առաջնային տեսական ու <br> գործնական գիտելիք և հմտություններ:</p>
+                </div>
+
+                <div class="our-plan-box" id="our-p">
+                    <h2>80 կետի արտոնություն</h2>
+                    <p>&nbsp;  &nbsp;Ծանոթացնում է մասնագիտության բովանդակությանը՝ ուսանողներին հնարավորություն տալով ձեռք բերել քանդակագործության վերաբերյալ առաջնային տեսական ու <br> գործնական գիտելիք և հմտություններ:</p>
+                </div>
+
+                <div class="our-plan-box" id="our-p">
+                    <h2>81 կետի արտոնություն</h2>
+                    <p>&nbsp;  &nbsp;Ծանոթացնում է մասնագիտության բովանդակությանը՝ ուսանողներին հնարավորություն տալով ձեռք բերել քանդակագործության վերաբերյալ առաջնային տեսական ու <br> գործնական գիտելիք և հմտություններ:</p>
+                </div>
+
+                <div class="our-plan-box" id="our-p">
+                    <h2>82 կետի արտոնություն</h2>
+                    <p>&nbsp;  &nbsp;Ծանոթացնում է մասնագիտության բովանդակությանը՝ ուսանողներին հնարավորություն տալով ձեռք բերել քանդակագործության վերաբերյալ առաջնային տեսական ու <br> գործնական գիտելիք և հմտություններ:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- fooottterrrrrrr -->
+
+
+    <footer>
+        <div class="container-two">
+            <div class="logo-f">
+                <img src="../images/Logo.png" alt="">
+            </div>
+            <div class="contactss">
+                <div class="cont">
+                    <h3>Կոնտակտ</h3>
+                    <br>
+                    <p>+374 98351474 | +374 55358454</p>
+                </div>
+                <div class="cont">
+                    <h3>Էլեկտրոնային հասցե</h3>
+                    <br>
+                    <p>ayvazovskiartacademy@gmail.com</p>
+                </div>
+                <div class="cont">
+                    <h3>Հասցե</h3>
+                    <br>
+                    <p>Ք․ Երեվան   փ․ Տերյան  109</p>
+                </div>
+            </div>
+            <div class="icons-f">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="bi bi-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="qandak.js"></script>
+    <script src="https://kit.fontawesome.com/0589dd09fb.js" crossorigin="anonymous"></script>
+</body>
+</html>

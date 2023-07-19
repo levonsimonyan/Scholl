@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="varch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="menu-close">
+                <span class="close-icon"><i class="fas fa-times"></i></span>
+            </div>
+
+            <ul>
+              <li><a href="../index.html">Գլխավոր</a></li>
+                <li><a href="#" onclick="toggleMenuTwo()" id="anav">Կրթություն <i class="bi bi-chevron-right"></i></a>
+                    <nav id="twose">
+                        <ul id="section-two">
+                            <li><a href="../arvestfaculty/arvest.html" id="first">Արվեստի ֆակուլտետ</a></li>
+                            <li><a href="#">Դիզայնի ֆակուլտետ</a></li>
+                            <li><a href="#">Կինոի և թատրոնի ֆակուլտետ</a></li>
+                        </ul>
+                    </nav>
+                </li>
+              <li><a href="#">Մեր մասին</a></li>
+              <li><a href="../news/news.html">Նորություններ</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <div class="manu-one" onclick="toggleMenu()">
+                
+                <p><i class="bi bi-list"></i><b>Մենյու</b></p>
+            </div>
+
+            <div class="logo">
+                <img src="../images/Logo.png" alt="logo">
+            </div>
+            <div class="icons">
+                <div class="new-nav-toggle">
+                    <i class="bi bi-telephone"></i>
+                </div>
+                
+                <div class="nav-toggle">
+                    <i class="bi bi-geo-alt"></i>
+                </div>
+                
+                <!-- search -->
+                <div class="search-container">
+                    <input type="text" placeholder="Որոնում...">
+                    <button class="search-icon" id="search-js">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <button class="close-icon" style="display: none;">
+                      <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <!-- search -->
+            </div>
+
+        </div>
+
+    </header>
+    <div class="container-two">
+        <div class="for-border-bottom"></div>
+    </div>
+
+
+    <nav class="navmap">
+        <div class="nav-close">
+            <i class="fa fa-times"></i>
+        </div>
+        <h2>Այցելեք մեզ</h2>
+        <img src="../images/map.jpg" alt="">
+        <h3>Աշխատանքային օրերին</h3>
+        <p>09:00 - 15:00</p>
+        <p>Տվյալ հասցեով՝</p>
+        <p>Ք․ Երեվան   փ․ Տերյան  109</p>
+    </nav>
+
+
+    <nav class="new-navmap">
+        <div class="new-nav-close">
+            <i class="fa fa-times"></i>
+        </div>
+        <h2>Զանգահարեք մեզ</h2>
+        <h3>Հանգստյան օրերին</h3>
+        <p>8:00 - 14:30</p>
+        <h4>Տվյալ հեռախոսահամարներով՝</h4>
+        <p>+374 98351474</p>
+        <p id="add-margin">+374 55358454</p>
+        <h3>Աշխատանքային օրերին</h3>
+        <p>8:00 - 17:00</p>
+    </nav>
+
+
+
+
+    <div class="about-text">
+        <div class="container">
+            <div class="a-text">
+                <h1>Մեր մասին</h1>
+            </div>
+            <div class="a-p">
+                <p>Հայաստանի Հ․Այվազովսկու անվան  արվեստի ակադեմիան պատրաստում է մասնագետներ կերպարվեստի, դիզայնի և <br> դեկորատիվ կիրառական արվեստի ոլորտներում՝ առաջարկելով գեղանկարչություն, քանդակագործություն, գրաֆիկա, <br> արվեստաբանություն, դիզայն, կիրառական արվեստ, համակարգչային գրաֆիկա և հագուստի մոդելավորում կրթական ծրագրեր:</p>
+            </div>
+            <div class="img-a">
+                <img src="../images/aboutimg.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <nav class="story">
+        <ul>
+            <li><a href="#">Պատմություն</a></li>
+            <li><a href="../varchakazm/varch.html" id="active">Վարչակազմ</a></li>
+            <li><a href="#">Մասնաճյուղեր</a></li>
+            <li><a href="#">Հովանավորներ</a></li>
+            <li><a href="#">Լիցենզինաեր և հավատարմագրեր</a></li>
+        </ul>
+    </nav>
+
+    <div class="peoples">
+        <div class="container">
+            <div class="people-left">
+                <div class="p-img">
+                    <img src="../images/p1.png" alt="">
+                </div>
+                <div class="p-text">
+                    <h1>Մկրտիչ Տիգրանի Այվազյան</h1>
+                    <p>Ռեկտոր</p>
+                    <p id="info-p">Ծնվել է 1978-ի սեպտեմբերի 30-ին Երևանում։ <br> 2000-ին ավարտել է Խաչատուր Աբովյանի անվան <br> հայկական պետական մանկավարժական <br> համալսարանի Ֆիզիկա-մաթեմատիկական ֆակուլտետը։ <br> 1999-2005-ին եղել է ՀՀ ԳԱԱ <br> Ռադիոֆիզիկայի և էլեկտրոնիկայի ինստիտուտի <br> կրտսեր գիտաշխատող։ 2005-2015-ին եղել է ՀՀ <br> ԳԱԱ Միջազգային գիտակրթական կենտրոնի <br> ավագ գիտաշխատող։ </p>
+                </div>
+            </div>
+            <div class="people-right">
+                <div class="p-img">
+                    <img src="../images/p2.png" alt="">
+                </div>
+                <div class="p-text">
+                    <h1>Ստեփան Մամիկոնի Եզդողլյան</h1>
+                    <p>Պրոռեկտոր</p>
+                    <p id="info-p">Ծնվել է 1978-ի սեպտեմբերի 30-ին Երևանում։ <br> 2000-ին ավարտել է Խաչատուր Աբովյանի անվան <br> հայկական պետական մանկավարժական <br> համալսարանի Ֆիզիկա-մաթեմատիկական ֆակուլտետը։ <br> 1999-2005-ին եղել է ՀՀ ԳԱԱ <br> Ռադիոֆիզիկայի և էլեկտրոնիկայի ինստիտուտի <br> կրտսեր գիտաշխատող։ 2005-2015-ին եղել է ՀՀ <br> ԳԱԱ Միջազգային գիտակրթական կենտրոնի <br> ավագ գիտաշխատող։ </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="management">
+        <div class="container-two">
+            <div class="text-line-m">
+                <h1>Կառավարում</h1>
+                <div class="line-meneg"></div>
+            </div>
+            <div class="text-meneg">
+                <p> <span> Հ․Այվազովսկու անվան  արվեստի ակադեմիան կառավարվում է </span> <br> երկաստիճան կառույցով (համալսարանի անդամներ և հոգաբարձուների <br> խորհուրդ): Համալսարանի անդամները վեց անդամներից բաղկացած <br> «ինքնահաստատվող մարմին» են, որոնք միշտ պետք է լինեն «Ինդիանա <br> նահանգի  միաբանության  միության անդամներ, որոնցից վեցը պետք է լինեն <br> պառավ»: Մասնակիցները Համալսարանի սկզբնական հիմնադիրների <br> աշխատակիցներն են և, ի թիվս այլ բաների, որոշում են հոգաբարձուների <br> խորհրդին փոխանցվելիք լիազորությունները:</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="peoples">
+        <div class="container">
+            <div class="people-left">
+                <div class="p-img">
+                    <img src="../images/p3.png" alt="">
+                </div>
+                <div class="p-text">
+                    <h1>Էդիկ Վարդանյան</h1>
+                    <p>Արվեստի ֆակուլտետի դեկան</p>
+                    <p id="info-p">Ծնվել է 1978-ի սեպտեմբերի 30-ին Երևանում։ <br> 2000-ին ավարտել է Խաչատուր Աբովյանի անվան <br> հայկական պետական մանկավարժական <br> համալսարանի Ֆիզիկա-մաթեմատիկական ֆակուլտետը։ <br> 1999-2005-ին եղել է ՀՀ ԳԱԱ <br> Ռադիոֆիզիկայի և էլեկտրոնիկայի ինստիտուտի <br> կրտսեր գիտաշխատող։ 2005-2015-ին եղել է ՀՀ <br> ԳԱԱ Միջազգային գիտակրթական կենտրոնի <br> ավագ գիտաշխատող։ </p>
+                </div>
+            </div>
+            <div class="people-right">
+                <div class="p-img">
+                    <img src="../images/p4.png" alt="">
+                </div>
+                <div class="p-text">
+                    <h1>Ավետիք Ավետիսյան</h1>
+                    <p>Դիզայնի ֆակուլտետի դեկան</p>
+                    <p id="info-p">Ծնվել է 1978-ի սեպտեմբերի 30-ին Երևանում։ <br> 2000-ին ավարտել է Խաչատուր Աբովյանի անվան <br> հայկական պետական մանկավարժական <br> համալսարանի Ֆիզիկա-մաթեմատիկական ֆակուլտետը։ <br> 1999-2005-ին եղել է ՀՀ ԳԱԱ <br> Ռադիոֆիզիկայի և էլեկտրոնիկայի ինստիտուտի <br> կրտսեր գիտաշխատող։ 2005-2015-ին եղել է ՀՀ <br> ԳԱԱ Միջազգային գիտակրթական կենտրոնի <br> ավագ գիտաշխատող։ </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="peoples">
+        <div class="container">
+            <div class="center-end-p">
+                <div class="people-left">
+                    <div class="p-img">
+                        <img src="../images/p5.png" alt="">
+                    </div>
+                    <div class="p-text">
+                        <h1>Արա Սամվելյան</h1>
+                        <p>Կինոի և թատրոնի ֆակուլտետ ֆակուլտետի <br> դեկան</p>
+                        <p id="info-p">Ծնվել է 1978-ի սեպտեմբերի 30-ին Երևանում։ <br> 2000-ին ավարտել է Խաչատուր Աբովյանի անվան <br> հայկական պետական մանկավարժական <br> համալսարանի Ֆիզիկա-մաթեմատիկական ֆակուլտետը։ <br> 1999-2005-ին եղել է ՀՀ ԳԱԱ <br> Ռադիոֆիզիկայի և էլեկտրոնիկայի ինստիտուտի <br> կրտսեր գիտաշխատող։ 2005-2015-ին եղել է ՀՀ <br> ԳԱԱ Միջազգային գիտակրթական կենտրոնի <br> ավագ գիտաշխատող։ </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-two">
+            <div class="logo-f">
+                <img src="../images/Logo.png" alt="">
+            </div>
+            <div class="contactss">
+                <div class="cont">
+                    <h3>Կոնտակտ</h3>
+                    <br>
+                    <p>+374 98351474 | +374 55358454</p>
+                </div>
+                <div class="cont">
+                    <h3>Էլեկտրոնային հասցե</h3>
+                    <br>
+                    <p>ayvazovskiartacademy@gmail.com</p>
+                </div>
+                <div class="cont">
+                    <h3>Հասցե</h3>
+                    <br>
+                    <p>Ք․ Երեվան   փ․ Տերյան  109</p>
+                </div>
+            </div>
+            <div class="icons-f">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="bi bi-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="varch.js"></script>
+    <script src="https://kit.fontawesome.com/0589dd09fb.js" crossorigin="anonymous"></script>
+</body>
+</html>
